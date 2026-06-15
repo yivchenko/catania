@@ -1,0 +1,67 @@
+# Catania guide audit and the missing pieces for 14–22 June 2026
+
+## Bottom-line verdict
+
+Your markdown is already a **good trip skeleton**, but it is **not yet a truly standalone, “maximally complete” personal site source**. The strongest part is the way it thinks in maps, day plans, and practical pairings. The weaker part is that the file, as uploaded, is not fully self-contained: it gives full write-ups for items 9–11, then jumps to festival notes, map links, day plans, and a “final verdict”, while several places mentioned in those day plans are only referenced rather than fully carded in the visible file. On top of that, at least two event/date entries in the festival section appear to be inaccurate after verification. fileciteturn0file0 citeturn31view0turn41search1turn40search0
+
+If I were prioritising your exact stay, I would treat the trip like this: **Catania old town on foot first**, **Taobuk in Taormina as the clearest time-sensitive culture hit**, **Riviera dei Ciclopi by bus as the best cheap coastal half-day**, and **Siracusa by train as the best classic day trip**. Etna is still worthwhile, but it is the least frictionless option if you want a bus/train-first week centred on Catania. citeturn31view0turn34view4turn16search1turn16search0turn36search3
+
+## What your markdown already gets right
+
+The additions you made are strong. **Terme Achilliane**, **Badia di Sant’Agata**, and **San Giovanni Li Cuti** are exactly the kind of places that make a personal guide better than a generic tourist list. Terme Achilliane really do sit under the cathedral area and are linked to the Diocesan Museum complex; the museum also gives access to terraces overlooking Piazza del Duomo and Porta Uzeda, so this zone is unusually dense in “one ticket, many layers” value. That instinct in your file is very good. fileciteturn0file0 citeturn33search0turn28search5turn33search4
+
+Your transport instinct is also right. For city use, **AMTS** is the core bus operator, **FCE** runs the metro, and both have official apps / ticketing paths. AMTS urban tickets are cheap; the metro has long operating hours by local standards; and integrated **MetroBus AMTS–FCE** tickets exist, which is exactly the sort of thing worth building into your personal site so you do not re-think it every day. citeturn5view0turn11view0turn12view0turn10view0
+
+## What is missing or likely wrong
+
+The biggest structural problem is **self-containment**. A personal trip site should work even if future-you has forgotten what was in version one. In the visible file, the day plans reference places such as **Piazza Duomo**, **Anfiteatro Romano**, **Palazzo Biscari**, **Via Santa Filomena**, **Etna**, **Taormina**, and **Siracusa**, but those do not all appear as equally detailed place cards in the uploaded markdown itself. That means the file behaves more like a revision note than a finished site source. fileciteturn0file0
+
+The second issue is **festival reliability**. The file correctly identifies **Taobuk** as relevant to your dates, and this is the clearest verified event in your window: the festival runs **18–22 June 2026** in Taormina, with the official programme page placing major festival activity across those dates. By contrast, the file’s **Aci Trezza San Giovanni** range looks too broad: the local tradition places the core feast on **24–25 June**, with the triduum in the **three preceding days**, which means your stay only overlaps the very start of the build-up on about **21–22 June**, not the main festa itself. fileciteturn0file0 citeturn31view0turn31view1turn41search1
+
+The most likely outright error is the **Sagra dell’Arancia in Gualtieri Sicaminò** listed for **14 June 2026**. The longstanding traditional timing for that event is the **third Sunday of May**, not mid-June. I would therefore remove that from your stay-period festival box unless you confirm a special 2026 exception from a local source. fileciteturn0file0 citeturn40search0
+
+The third issue is **transport wording**. Several lines in the file are too vague to be useful under time pressure. “Bus or 15–20 min east of centre” is the kind of wording that future-you will hate, because it mixes transport modes and never tells you the actual departure logic. A good personal site card needs one fixed anchor such as **“from Piazza Duomo”** or **“from Catania Centrale”**, then the cheapest route, then the fallback. The official operator stack for this is already there: AMTS has route planning and ticketing, FCE publishes line/ticket information, and some concrete city/out-of-city lines are stable enough to name. fileciteturn0file0 citeturn4view4turn10view0turn34view4
+
+## Overlooked gems worth adding
+
+The most important “missed gem” to add is **the Roman Theatre and Odeon** in central Catania. This pair is one of the best examples of the city’s Roman layer surviving inside the living historic fabric, and it pairs naturally with the Badia / Duomo / Crociferi / Monastero axis. It is exactly the sort of site many visitors skip because Catania’s street life is so strong that they never slow down long enough to go below the surface. citeturn29search5turn29search3
+
+The second is **Terme della Rotonda**. This is a genuinely strong “tourists miss it but shouldn’t” stop because it is not only Roman; it also preserves a Byzantine-over-Roman continuity that is very rare in Catania. It sits close enough to the Roman Theatre / Odeon / Monastero area that it is easy to layer into a dense walking route rather than treating it as a separate expedition. citeturn29search0turn29search4
+
+The third is **Casa del Nespolo in Aci Trezza**. If you go to Aci Trezza only for the faraglioni and the seafront, you miss the literary and film layer that makes the place special. The village is tied to Giovanni Verga’s *I Malavoglia* and to Visconti’s *La terra trema*; Casa del Nespolo gives the outing cultural substance rather than making it just “pretty coast by bus”. citeturn41search1
+
+The fourth is a refinement rather than a new area: add **Museo Diocesano terraces and Porta Uzeda** as a pair with Terme Achilliane. Your file already points in this direction through Terme Achilliane and Badia, but the museum terraces are useful because they create a backup/alternative viewpoint, and they sit directly in the same micro-zone as the baths and Duomo complex. In a personal site, this should become one compact “Duomo cluster” rather than separate scattered notes. citeturn33search0turn28search5turn33search4
+
+A fifth optional addition, especially for a hot afternoon or one museum-heavy day, is the **Museo storico dello sbarco in Sicilia 1943** at Le Ciminiere. It is near the station area, indoor, and unusually strong for contextualising eastern Sicily beyond postcard baroque and beaches. If your energy drops one afternoon, this is a smarter “plan B” than wandering aimlessly in the heat. citeturn42search0
+
+If you want one small atmospheric add-on rather than another museum, add **Giardino Pacini / the Amenano outlet zone** to your map logic. It is not a blockbuster sight, but it is the sort of place that makes the city feel lived-in and layered, and that matters in a personal guide. citeturn28search1turn28search5
+
+## Best festivals and cultural windows in your exact stay
+
+The clearest verified **must-have event** in your date window is **Taobuk** in Taormina. The official site places the 2026 edition on **18–22 June 2026**, and the programme page confirms major activity across those days. If you want one thing in your site marked **time-sensitive**, this is the one. It is the event most worth actively scheduling rather than leaving to chance. citeturn31view0turn31view1
+
+For **Aci Trezza**, I would not headline the patronal feast as a main event for this trip. The town’s San Giovanni tradition is centred on **24–25 June**, with the triduum in the three days before. In practice, that means **21–22 June** may start feeling festival-adjacent, but most of your stay is **too early** for the main religious and folkloric peak. So keep Aci Trezza in your plan as a coastal/literary half-day first, and treat any early festive atmosphere as a bonus rather than the reason to go. citeturn41search1turn41search0
+
+A smart upgrade to your Siracusa note is to recognise that the city is culturally “in season” in your window because the **Greek Theatre performance cycle runs annually from May to July**. Even if you do not build your whole day around an evening return, this makes Siracusa more attractive during your dates than it would be in an off-period. citeturn46search1turn46search3
+
+## Transport-first plan from central Catania
+
+For the **historic core**, your personal site should treat Catania as a **walking city first**. The Duomo area, Pescheria, Amenano, Terme Achilliane, Badia, Crociferi, the Roman Theatre / Odeon zone, Ursino, and Giardino Pacini logically cluster better on foot than by trying to string together short bus hops. Your site should explicitly label these as “walkable from centre” rather than giving every one of them its own pseudo-transport section. fileciteturn0file0 citeturn28search5turn33search0turn29search5turn28search1
+
+For **urban transit**, the official fare structure is worth hardcoding into your site. **AMTS** sells a **90-minute urban ticket for €1.40** and a **day ticket for €3.50**. **FCE metro** sells a **120-minute metro ticket for €1.40** and a **24-hour metro ticket for €3.00**. The integrated **MetroBus AMTS–FCE** tickets are **€2.00 for 120 minutes** and **€4.50 for 24 hours**, covering the metro plus AMTS city buses except **Alibus** and **524S**. Metro hours are officially **Monday–Thursday 6:00–22:30**, **Friday–Saturday 6:00–1:00**, and **Sunday/holidays 7:00–22:30**. citeturn5view0turn11view0turn12view0
+
+For the **Riviera dei Ciclopi**, the one line you should absolutely hardcode is **AMTS line 434**, which the official AMTS line map lists as **“Catania – Acicastello (piazza Delle Scuole Acitrezza)”**. This is the cleanest cheap-public-transport link for **Aci Castello and Aci Trezza**, so it deserves a highlighted place in your site. For the north-eastern seafront, AMTS also lists **935 to Scogliera** and **948 to Cannizzaro**, which makes them good supporting references for sea-facing neighbourhood moves. citeturn34view4turn35view2
+
+For **train day trips**, treat **Catania Centrale** as your anchor hub. The station is the city’s main railway station, and both **Taormina–Giardini** and **Siracusa** are current rail destinations on the main eastern line. There was storm damage on the Messina–Siracusa line in January 2026, but contemporaneous reporting described those interruptions as temporary, with repairs expected by early March, so your June trips should be broadly viable; still, your site should tell future-you to check same-day regional departures before leaving. citeturn16search2turn16search1turn16search0turn47search2
+
+The one place I would **not** oversell as a casual cheap outing is **Etna**. Compared with Aci Trezza, Taormina, or Siracusa, Etna is a more deliberate mountain-logistics day. In your site, it belongs in a tag like **“full-day / weather-dependent / effort”**, not mixed into easy half-day city-and-coast options. citeturn36search3turn12view0
+
+## How to turn this into a genuinely useful personal site
+
+The next upgrade is not more prose; it is **better fields per card**. Every place card should have: **why go**, **best time of day**, **realistic duration**, **from-centre start point**, **cheapest route**, **fallback route**, **reservation or queue risk**, **closed-day risk**, **best pairing nearby**, and **one personal checkbox row** such as *seen / eaten / swum / sunset / revisit*. Right now the markdown has the right intentions, but not yet the operational precision that makes a trip site frictionless on a busy day. fileciteturn0file0
+
+I would also add a simple **confidence system** to the site itself: **verified official**, **traditional recurring**, and **unverified / needs local check**. If you do only that one thing, you will prevent exactly the kind of date drift that seems to have happened with **Aci Trezza San Giovanni timing** and **Gualtieri Sicaminò’s orange festival** in the current file. fileciteturn0file0 citeturn31view0turn41search1turn40search0
+
+## Open questions and limitations
+
+I could **directly verify Taobuk and the main public-transport operator information**, and I could verify the traditional timing of **Aci Trezza’s San Giovanni** and **Gualtieri Sicaminò’s Sagra dell’Arancia** from accessible sources. I **could not**, in this pass, verify a solid official programme page for **Jaci&Jazz** that I would trust enough to turn into a headline recommendation, so I would not build your stay around it until you confirm it locally. Likewise, for **San Giovanni Li Cuti**, I would not hardcode one bus line into the site unless you first pin the exact starting point near your accommodation and test the nearest stop logic for your real apartment location. citeturn31view0turn41search1turn40search0turn4view4turn10view0
