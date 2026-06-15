@@ -56,16 +56,16 @@ export function HomePage() {
       </section>
 
       <section className="grid gap-3 sm:grid-cols-3">
-        <MetricTile label="Відвідано" value={`${visitedPlaces}/${places.length}`} detail={`${wantedPlaces} ще в списку «хочу»`} />
-        <MetricTile label="Улюблене" value={`${favoriteCount}`} detail="Те, що точно запам’ятається" />
-        <MetricTile label="Хочу побачити" value={`${wantedPlaces}`} detail="Вже в голові" />
+        <MetricTile label="Відвідано" value={`${visitedPlaces}/${places.length}`} detail={`${wantedPlaces} ще «хочу»`} />
+        <MetricTile label="Улюблене" value={`${favoriteCount}`} detail="Те, що запам’ятається" />
+        <MetricTile label="Хочу туди" value={`${wantedPlaces}`} detail="У планах" />
       </section>
 
       <section>
         <div className="mb-3 flex items-center justify-between">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.14em] text-lava-600 dark:text-citrus-400">Обов’язково</p>
-            <h2 className="mt-1 text-2xl font-black text-ink-900 dark:text-white">Місця, які точно зачеплять</h2>
+            <h2 className="mt-1 text-2xl font-black text-ink-900 dark:text-white">Місця, які не можна пропустити</h2>
           </div>
           <Link to="/places" className="text-sm font-bold text-ionian-700 dark:text-ionian-100">
             Усі місця →

@@ -31,18 +31,18 @@ export function MemoriesPage() {
         <p className="text-xs font-bold uppercase tracking-[0.14em] text-lava-600 dark:text-citrus-400">Твоя поїздка</p>
         <h2 className="mt-1 text-3xl font-black text-ink-900 dark:text-white">Мій список</h2>
         <p className="mt-2 text-sm leading-6 text-ink-600 dark:text-ink-200">
-          Твої відмітки, улюблене і нотатки — щоб згадати, як було круто.
+          Твої відмітки, улюблене та нотатки — щоб згадати, як було круто.
         </p>
       </section>
 
       {/* Прості лічильники */}
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
         <div className="rounded-card border border-ink-200 bg-white p-4 shadow-soft dark:border-white/10 dark:bg-ink-900">
-          <p className="text-xs font-bold uppercase tracking-[0.14em] text-ink-500 dark:text-ink-200">Вже було</p>
+          <p className="text-xs font-bold uppercase tracking-[0.14em] text-ink-500 dark:text-ink-200">Відвідано</p>
           <p className="mt-1 text-4xl font-black text-ink-900 dark:text-white">{visitedPlaces.length}</p>
         </div>
         <div className="rounded-card border border-ink-200 bg-white p-4 shadow-soft dark:border-white/10 dark:bg-ink-900">
-          <p className="text-xs font-bold uppercase tracking-[0.14em] text-ink-500 dark:text-ink-200">Найкраще</p>
+          <p className="text-xs font-bold uppercase tracking-[0.14em] text-ink-500 dark:text-ink-200">Улюблене</p>
           <p className="mt-1 text-4xl font-black text-ink-900 dark:text-white">
             {favoritePlaces.length + favoriteFoods.length}
           </p>

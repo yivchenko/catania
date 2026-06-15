@@ -116,7 +116,7 @@ export function PlacesPage() {
                 }`}
               />
             </span>
-            <span>Тільки must-see і топ</span>
+            <span>Тільки must-see та топові</span>
           </button>
           <span className="text-[11px] font-semibold text-ink-500 dark:text-ink-400">
             {filteredPlaces.length} з {places.length}

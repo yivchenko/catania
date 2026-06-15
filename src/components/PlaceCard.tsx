@@ -90,11 +90,11 @@ export function PlaceCard({ place }: PlaceCardProps) {
             <span className="text-ink-600 dark:text-ink-200">{place.whyGo}</span>
           </p>
           <p>
-            <span className="font-bold text-ink-900 dark:text-white">Як дістатися дешево: </span>
+            <span className="font-bold text-ink-900 dark:text-white">Як доїхати бюджетно: </span>
             <span className="text-ink-600 dark:text-ink-200">{place.cheapestRoute}</span>
           </p>
           <p>
-            <span className="font-bold text-ink-900 dark:text-white">Що ще зачепити: </span>
+            <span className="font-bold text-ink-900 dark:text-white">Що зачепити поруч: </span>
             <span className="text-ink-600 dark:text-ink-200">{place.pairing}</span>
           </p>
         </div>
