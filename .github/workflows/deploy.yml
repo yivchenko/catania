@@ -35,6 +35,10 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          # Enables GitHub Pages for the repo on first run if not already configured.
+          # This fixes the "Get Pages site failed. Not Found" error.
+          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
