@@ -36,8 +36,10 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
-          # Enables GitHub Pages for the repo on first run if not already configured.
-          # This fixes the "Get Pages site failed. Not Found" error.
+          # Спробує автоматично увімкнути GitHub Pages на першому запуску.
+          # Якщо падає з "Resource not accessible by integration" — це нормально для першого разу.
+          # Треба один раз вручну зайти в Settings → Pages і поставити Source = GitHub Actions.
+          # Після цього наступні запуски будуть працювати автоматично.
           enablement: true
 
       - name: Upload artifact
