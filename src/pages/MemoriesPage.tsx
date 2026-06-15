@@ -82,7 +82,7 @@ export function MemoriesPage() {
           </div>
         ) : (
           <p className="rounded-card border border-ink-200 bg-ink-50 p-4 text-sm text-ink-600 dark:border-white/10 dark:bg-white/6 dark:text-ink-200">
-            Поки нічого не відмічено як відвідане. Повертайся сюди після прогулянок.
+            Поки нічого не відмічено. Повертайся після прогулянок і додавай спогади.
           </p>
         )}
       </section>
@@ -117,7 +117,7 @@ export function MemoriesPage() {
           </div>
         ) : (
           <p className="rounded-card border border-ink-200 bg-ink-50 p-4 text-sm text-ink-600 dark:border-white/10 dark:bg-white/6 dark:text-ink-200">
-            Додай сердечко на місцях або стравах, які найбільше сподобались.
+            Додай сердечко до місць і страв, які найбільше сподобались.
           </p>
         )}
       </section>
@@ -136,7 +136,7 @@ export function MemoriesPage() {
           </div>
         ) : (
           <p className="rounded-card border border-ink-200 bg-ink-50 p-4 text-sm text-ink-600 dark:border-white/10 dark:bg-white/6 dark:text-ink-200">
-            Пиши короткі нотатки прямо на картках місць — вони з’являться тут.
+            Додавай короткі нотатки на картках — вони збережуться тут.
           </p>
         )}
       </section>

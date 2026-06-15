@@ -92,7 +92,7 @@ export function FoodCard({ item }: FoodCardProps) {
           <input
             value={userState.whereTried ?? ""}
             onChange={(event) => updateFood(item.id, { whereTried: event.target.value })}
-            placeholder="Бар, ятка на ринку, місто, ресторан..."
+            placeholder="Бар, ятка, місто, ресторан..."
             className="h-11 w-full rounded-card border border-ink-200 bg-white px-3 text-sm text-ink-900 outline-none transition placeholder:text-ink-500 focus:border-ionian-500 focus:ring-2 focus:ring-ionian-500/20 dark:border-white/10 dark:bg-ink-950 dark:text-white"
           />
         </label>
@@ -102,7 +102,7 @@ export function FoodCard({ item }: FoodCardProps) {
           <textarea
             value={userState.note ?? ""}
             onChange={(event) => updateFood(item.id, { note: event.target.value })}
-            placeholder="Текстура, ціна, адреса, чи варто повторити..."
+            placeholder="Текстура, ціна, адреса, чи варто ще раз..."
             className="min-h-20 w-full resize-y rounded-card border border-ink-200 bg-white px-3 py-3 text-sm text-ink-900 outline-none transition placeholder:text-ink-500 focus:border-ionian-500 focus:ring-2 focus:ring-ionian-500/20 dark:border-white/10 dark:bg-ink-950 dark:text-white"
           />
         </label>

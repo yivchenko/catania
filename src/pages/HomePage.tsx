@@ -48,7 +48,7 @@ export function HomePage() {
               className="tap-highlight inline-flex h-12 w-full items-center justify-center gap-2 rounded-card bg-white px-6 text-sm font-bold text-ink-900 transition hover:bg-citrus-100 sm:w-auto"
             >
               <MapPin aria-hidden="true" size={17} />
-              Показати всі місця
+              Переглянути всі місця
               <ArrowRight aria-hidden="true" size={17} />
             </Link>
           </div>
@@ -56,8 +56,8 @@ export function HomePage() {
       </section>
 
       <section className="grid gap-3 sm:grid-cols-3">
-        <MetricTile label="Відвідано" value={`${visitedPlaces}/${places.length}`} detail={`${wantedPlaces} ще «хочу»`} />
-        <MetricTile label="Улюблене" value={`${favoriteCount}`} detail="Те, що запам’ятається" />
+        <MetricTile label="Відвідано" value={`${visitedPlaces}/${places.length}`} detail={`${wantedPlaces} ще в «хочу»`} />
+        <MetricTile label="Улюблене" value={`${favoriteCount}`} detail="Що запам’ятається" />
         <MetricTile label="Хочу туди" value={`${wantedPlaces}`} detail="У планах" />
       </section>
 

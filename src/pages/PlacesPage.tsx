@@ -63,7 +63,7 @@ export function PlacesPage() {
           <h2 className="mt-1 text-3xl font-black text-ink-900 dark:text-white">Місця</h2>
         </div>
         <p className="max-w-3xl text-sm leading-6 text-ink-600 dark:text-ink-200">
-          Пішки по центру, море на автобусі, день потягом. Бери ідеї і роби як тобі зручно.
+          Пішки по центру, море на автобусі, день потягом. Бери ідеї та плануй під себе.
         </p>
       </section>
 
@@ -79,7 +79,7 @@ export function PlacesPage() {
             <input
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Шукай за назвою, районом чи настроєм..."
+              placeholder="Шукай за назвою, районом або настроєм..."
               className="h-11 w-full rounded-card border border-ink-200 bg-white pl-10 pr-3 text-sm text-ink-900 outline-none transition placeholder:text-ink-500 focus:border-ionian-500 focus:ring-2 focus:ring-ionian-500/20 dark:border-white/10 dark:bg-ink-950 dark:text-white"
             />
           </label>
@@ -116,7 +116,7 @@ export function PlacesPage() {
                 }`}
               />
             </span>
-            <span>Тільки must-see та топові</span>
+            <span>Тільки must-see та топові місця</span>
           </button>
           <span className="text-[11px] font-semibold text-ink-500 dark:text-ink-400">
             {filteredPlaces.length} з {places.length}
@@ -127,7 +127,7 @@ export function PlacesPage() {
       {targetId && filteredPlaces.length > 0 ? (
         <div className="flex items-center justify-between gap-3 rounded-card border border-ionian-200 bg-ionian-50 p-4 text-ionian-700 dark:border-ionian-500/30 dark:bg-ionian-500/15 dark:text-ionian-100">
           <p className="text-sm font-semibold">
-            З маршруту: <strong className="font-bold">{filteredPlaces[0].name}</strong>
+            Рекомендація з твого маршруту: <strong className="font-bold">{filteredPlaces[0].name}</strong>
           </p>
           <button
             type="button"
@@ -150,7 +150,7 @@ export function PlacesPage() {
       </div>
 
       {filteredPlaces.length === 0 ? (
-        <EmptyState title="Нічого не знайшлося" body="Спробуй прибрати фільтри або пошукати щось простіше — море, центр, спека." />
+        <EmptyState title="Нічого не знайшлося" body="Спробуй зняти фільтри або пошукати простіше — «море», «центр» чи «спека»." />
       ) : null}
     </div>
   );
