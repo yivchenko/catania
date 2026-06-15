@@ -67,7 +67,7 @@ export function PlacesPage() {
         </p>
       </section>
 
-      <section className="sticky top-[69px] z-30 -mx-4 space-y-3 border-y border-ink-200 bg-ink-50/94 px-4 py-3 backdrop-blur-xl dark:border-white/10 dark:bg-ink-900/92 md:top-[82px] md:mx-0 md:rounded-card md:border">
+      <section className="-mx-4 space-y-3 border-y border-ink-200 bg-ink-50/94 px-4 py-3 backdrop-blur-xl dark:border-white/10 dark:bg-ink-900/92 md:mx-0 md:rounded-card md:border">
         <div className="grid gap-2 sm:grid-cols-[1fr_190px]">
           <label className="relative block">
             <span className="sr-only">Пошук місць</span>
@@ -143,7 +143,7 @@ export function PlacesPage() {
         </div>
       ) : null}
 
-      <div className="grid gap-4 xl:grid-cols-2">
+      <div className="pt-4 grid gap-4 xl:grid-cols-2">
         {filteredPlaces.map((place) => (
           <PlaceCard key={place.id} place={place} />
         ))}
